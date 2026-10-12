@@ -1,0 +1,1 @@
+export default function Loading(){return <div className="wrap loading-state" role="status" aria-live="polite"><span className="eyebrow">THE BLISS JOURNAL</span><h1>Gathering a good story…</h1><div className="loading-grid" aria-hidden="true"><i/><i/><i/></div><span className="visually-hidden">Loading stories</span></div>}

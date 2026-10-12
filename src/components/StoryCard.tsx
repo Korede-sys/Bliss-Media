@@ -1,0 +1,4 @@
+import Link from 'next/link'
+import Image from 'next/image'
+import type { Story } from '@/lib/content'
+export function StoryCard({story,variant='standard'}:{story:Story;variant?:'standard'|'compact'}){return <article className={`story-card ${variant==='compact'?'compact':''}`}><Link className="story-image" href={`/article/${story.slug}`}><Image src={story.image} alt={story.imageAlt} fill unoptimized sizes="(max-width: 600px) 100vw, (max-width: 850px) 50vw, 33vw"/><span className="image-arrow" aria-hidden="true">↗</span></Link><div className="story-meta"><Link href={`/category/${story.category.toLowerCase()}`}>{story.category}</Link><span>{story.read}</span></div><h3><Link href={`/article/${story.slug}`}>{story.title}</Link></h3><p>{story.dek}</p><div className="byline">By {story.author}<span>·</span>{story.date}</div></article>}
