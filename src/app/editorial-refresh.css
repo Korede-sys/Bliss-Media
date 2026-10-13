@@ -17,7 +17,7 @@ body { background: #fff; color: #171717; font-family: Inter, Arial, Helvetica, s
 h1,h2,h3,.wordmark,.footer-logo,.hero-kicker,.article-body,.article-dek,.quote-band p,.signature { font-family: Inter, Arial, Helvetica, sans-serif !important; }
 a { text-decoration-thickness: 1px; text-underline-offset: 3px; }
 .site-header { background:#fff; border-bottom:0; }
-.topline { min-height:34px; height:auto; background:#171717; color:#f7f7f7; border:0; font-size:9px; letter-spacing:.1em; padding:9px max(36px,calc((100% - 1240px)/2); }
+.topline { min-height:34px; height:auto; background:#171717; color:#f7f7f7; border:0; font-size:9px; letter-spacing:.1em; padding:9px max(36px,calc((100% - 1240px)/2)); }
 .topline-note { color:#f7f7f7; font-weight:700; }
 .top-note { display:none; }
 .topline-discover,.topline>a { color:#fff; font-weight:700; }
