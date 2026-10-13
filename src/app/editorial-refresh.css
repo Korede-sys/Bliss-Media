@@ -194,3 +194,6 @@ a { text-decoration-thickness: 1px; text-underline-offset: 3px; }
 @media (prefers-reduced-motion:reduce) {
   *,*::before,*::after { scroll-behavior:auto !important; animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; }
 }
+
+.topline-staff{color:#fff!important;font-size:9px;font-weight:800;letter-spacing:.1em;white-space:nowrap;padding:7px 9px;border:1px solid #686868;margin-left:auto}.topline-staff:hover{background:#d71920;border-color:#d71920;color:#fff!important}.topline{gap:18px}.topline-discover{white-space:nowrap}
+@media(max-width:600px){.topline{padding-inline:14px;gap:10px;font-size:8px}.topline-staff{font-size:8px;padding:6px}.topline-discover{font-size:8px}.topline-note{max-width:110px;line-height:1.4}}
