@@ -14,6 +14,7 @@ export function SiteHeader() {
       <div className="topline">
         <span className="topline-note">AN INDEPENDENT DIGITAL JOURNAL</span>
         <span className="top-note">Stories. Perspectives. Culture.</span>
+        <Link href="/admin/sign-in" className="topline-staff">STAFF SIGN IN</Link>
         <Link href="/search" className="topline-discover">
           FIND YOUR NEXT READ <ArrowUpRight size={12} aria-hidden="true" />
         </Link>
