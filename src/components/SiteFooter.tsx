@@ -18,6 +18,7 @@ export function SiteFooter() {
             <Link key={category} href={`/category/${category.toLowerCase()}`}>{category}</Link>
           ))}
           <Link href="/search">All stories</Link>
+          <Link href="/admin/sign-in">Editorial sign in</Link>
         </div>
         <div className="newsletter">
           <span className="newsletter-label">A NOTE FROM BLISS</span>
