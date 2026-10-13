@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   description:
     'Stories. Perspectives. Culture. Independent perspectives on technology, entertainment, lifestyle, business and the world around us.',
   applicationName: 'Bliss Media',
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://bliss-media.vercel.app'),
   openGraph: {
     type: 'website',
     siteName: 'Bliss Media',
